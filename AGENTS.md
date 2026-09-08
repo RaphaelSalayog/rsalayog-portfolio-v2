@@ -1,3 +1,15 @@
+## Formatting and Code Actions
+
+After creating or modifying a JavaScript, TypeScript, JSX, or TSX file:
+
+- Always format changed files using Prettier.
+- Use the project's `.prettierrc` as the source of truth for formatting.
+- Run `npx prettier --write <changed-file>` on every changed file.
+- Organize imports in changed files to match VS Code's `source.organizeImports` save action.
+- Remove unused imports and keep imports organized according to the project's existing tooling and conventions.
+- If multiple files are changed, apply these actions to all changed files.
+- Complete these formatting and import-organization steps before finishing the task.
+
 <!-- BEGIN:nextjs-agent-rules -->
 
 # This is NOT the Next.js you know
